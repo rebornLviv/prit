@@ -1,3 +1,24 @@
+body{
+    background-image:url(../images/background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.ogolosh {
+    height: 350px; /* Высота блока */
+      width: 20%;
+    background-color: #F0F0F0;
+    border: 10px solid #DCDCDC;
+    border-radius: 5%;
+    float: left;
+  }
+  
+  .ogolosh:hover {
+    border: 10px solid #A9A9A9 ;
+  }
+
 .red{
 width:30px;
 height: 30px;
@@ -51,3 +72,150 @@ cursor: pointer;
     width: 400px;
     flex-direction: column;
 }
+
+.name {
+    text-align: center;
+    width: '100%';
+  }
+
+  .dogs {
+    width: 80%;
+    height: 80%;
+    border: 1px solid #F0F0F0;
+    border-radius: 25px;
+  }
+  
+  .info {
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 55px;
+    color: #F0F0F0;
+    border-radius: 10px;
+    margin-top: '10%';
+    p{
+      margin:0;
+      font-size: 1.5rem;
+    }
+  }
+
+  .info:hover {
+    background-color: #A9A9A9;
+    cursor: pointer;
+  }
+
+
+  .star {
+    polygon {
+      fill: #d8d8d8;
+    }
+
+    &:hover ~ .star {
+      polygon {
+        fill: #d8d8d8 !important;
+      }
+    }
+  }
+
+
+
+
+  
+  
+  #hello {
+    width: 550px;
+    height: 660px;
+    background-color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 100px;
+    border: 10px solid #DCDCDC;
+    border-radius: 20px;
+    float: left;
+    padding-left: 40px;
+    padding-top: 40px;
+    color: #5B5B5B;
+  }
+  
+  #dog2 {
+    width: 300px;
+    height: 300px;
+    border: 5px dashed #DCDCDC;
+    border-radius: 20px;
+  }
+  
+  #maininfo {
+    padding-top: 20px;
+  }
+  
+  #hello2 {
+    padding-top: -20px;
+      padding-left: 10px;  
+    margin-left: 700px;
+    margin-top: 100px;
+    height: 400px;
+    width: 520px;
+    background-color: #FFFFFF;
+    border: 10px solid #DCDCDC;
+    border-radius: 20px;
+    color: #5B5B5B;
+  }
+  
+  #person{
+    height: 350px;
+    width: 500px;
+    margin-left: 700px;
+    margin-top: 20px;
+  }
+  
+  #photo{
+    width: 200px;
+    height: 229px;
+    border: 10px solid #DCDCDC;
+    border-radius: 20px;
+    float: left;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  #personinfo {
+    padding-top: 0px;
+    width: 280px;
+    height: 229px;
+    margin-left: 250px;
+  }
+  
+  .dani {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    height: 50px;
+    border: 7px solid #DCDCDC;
+    border-radius: 20px;
+    margin-top: 17px;
+  }
+  
+  #message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    height: 50px;
+    border: 7px solid #DCDCDC;
+    border-radius: 20px;
+  }
+  
+  #message:hover {
+    border: 7px solid #A9A9A9;
+  }
+  
+  #dani1:hover {
+    border: 7px solid #A9A9A9;
+  }

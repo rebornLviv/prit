@@ -65,6 +65,7 @@ function Notes() {
        transformed[id-1].id= id.toString()
        console.log('beforeSet',transformed)
        setNotes(transformed)
+       setFiltered(transformed)
        localStorage.setItem('notes',JSON.stringify(transformed))
    }
 
@@ -77,7 +78,7 @@ function Notes() {
        },[]
    )
     return (
-        <Container>
+        <Container className='site-bg'>
             <Row>
                 
                 <Col className="palete" style={{position:'relative'}}>

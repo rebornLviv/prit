@@ -36,7 +36,7 @@ function Todo() {
         localStorage.setItem('todos',JSON.stringify(newTodos))
     }
     return (
-        <Container style={{display:'flex',justifyContent:'center'}}>
+        <Container className='site-bg' style={{display:'flex',justifyContent:'center'}}>
             <Row className="todoCont" >
                 <Col >
                 <InputGroup className="mb-3 mt-3">
