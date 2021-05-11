@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { pets } from './dummy/data';
+
+
+let itm = localStorage.getItem('pets')
+if(!itm) localStorage.setItem('pets',JSON.stringify(pets))
 
 ReactDOM.render(
   <React.StrictMode>
